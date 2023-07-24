@@ -20,14 +20,14 @@ const INITIAL_JSON = {
   },
 };
 
-const categoryStyles = {
-  list_category: {
-    colour: "#4a148c",
-  },
-  logic_category: {
-    colour: "#01579b",
-  },
-};
+// const categoryStyles = {
+//   list_category: {
+//     colour: "#4a148c",
+//   },
+//   logic_category: {
+//     colour: "#01579b",
+//   },
+// };
 
 const INITIAL_TOOLBOX_JSON = {
   kind: "categoryToolbox",
@@ -47,7 +47,8 @@ const INITIAL_TOOLBOX_JSON = {
     {
       kind: "customCategorye",
       name: "Block Add",
-      categorystyle: `${Object.keys(categoryStyles)[0]}`,
+      // categorystyle: `${Object.keys(categoryStyles)[0]}`,
+      colour: "#BB0000",
 
       // cssConfig: {
       //   container: "test",

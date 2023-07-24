@@ -5,6 +5,17 @@
 .blocklyToolboxDiv{
   background-color: white;
 }
+/* width */
+.blocklyToolboxDiv::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Handle */
+.blocklyToolboxDiv::-webkit-scrollbar-thumb {
+  background: #ccc; 
+  border-radius: 10px;
+}
+
 /* Makes our label white. */
 .blocklyTreeLabel {
     color: black;
